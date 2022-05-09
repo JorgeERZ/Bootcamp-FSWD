@@ -1,0 +1,68 @@
+<head>
+    <h1>Ejercicio 2</h1>
+</head>
+<br>
+<br>
+
+<body>
+    <fieldset style="width:device,width">
+        <legend>Información Personal</legend>
+        <div>
+            <div>
+                <label for="nameInput">Nombre: </label>
+                <input type="text" id="nameInput" placeholder="Introduce tu nombre">
+                <label for="lastnameInput">Apellidos: </label>
+                <input type="text" id="lastnameInput" placeholder="Introduce tus Apellidos">
+            </div>
+            <br>
+            Edad: <input max="99" min="1" name="age" step="1" type="number" value="18" /> <br />
+            <br>
+            <label for="emailInput">Email: </label>
+            <input type="email" id="emailInput" placeholder="nombre@email.com"><br>
+            <br>
+            <label for="passwordInput">Pasdword: </label> <br>
+            <input type="password" id="passwordInput" placeholder="********"><br>
+            <br>
+            <label for="pais">Pais: </label>
+            <input type="text" id="paisInput" placeholder="Introduce tu país"><BR>
+            <br>
+            <fieldset style="width:270px">
+                <legend>Genero:</legend>
+                <div class="inputBlock">
+                    <label for="genero"></label>
+                    <input type="checkbox" value="mujer">Mujer<br>
+                    <input type="checkbox" value="hombre">Hombre<br>
+                    <input type="checkbox" value="otro"> Otro<br>
+                </div>
+            </fieldset>
+            <br>
+            <div class="inputBlock">
+                <label for="programinglanguaje">Lenguaje de programación: </label>
+                <select name="sexInput" id="sexInput">
+                    <option value="Javascript">Javascript</option>
+                    <option value="html5">Html 5</option>
+                    <option value="cplusplus">C++</option>
+                    <option value="css3">CSS3</option>
+                </select><br>
+            </div>
+            <br>
+            <fieldset style="width:900px">
+                <legend>Selecciona tu academia de programación favorita:</legend>
+                        <div class="inputBlock">
+                            <input type="checkbox" value="csacademy"> Code Space Academy <br>
+                            <input type="checkbox" value="jacademy"> Juanito Academy <br>
+                            <input type="checkbox" value="otra"> Otra <br>
+                        </div>
+            </fieldset>
+            <br>
+        </div>
+    </fieldset>
+    <br>
+    <div>
+        <input type="checkbox" /> Acepto recibir cientos de miles de correos irrelevantes.<br />
+        <input type="checkbox" />Acepto los términos y condiciones. <br />
+    </div>
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="submit" value="Limpiar formulario">
+</body>
