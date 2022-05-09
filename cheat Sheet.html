@@ -129,62 +129,119 @@ cheat Sheet
         <tfoot>pie de tabla?</tfoot>
     </table>
 
-<!-- Formularios / Forms-->
+    <!-- Formularios / Forms-->
 
-<form action="" method="get">
-    
-    <div class="inputBlock">
-        <label for="nameInput" >Nombre: </label> <br>
-        <input type="text" id="nameInput" placeholder="Introduce tu nombre">
-    </div>
+    <form action="" method="get">
+
+        <div class="inputBlock">
+            <label for="nameInput">Nombre: </label> <br>
+            <input type="text" id="nameInput" placeholder="Introduce tu nombre">
+        </div>
+        <br>
+        <div class="inputBlock">
+            <label for="lastnameInput">Apellidos: </label> <br>
+            <input type="text" id="lastnameInput" placeholder="Introduce tus Apellidos">
+        </div>
+        <br>
+        <div class="inputBlock">
+            <label for="emailInput">Email: </label> <br>
+            <input type="email" id="emailInput" placeholder="Introduce tu email">
+        </div>
+        <br>
+        <div class="inputBlock">
+            <label for="passwordInput">Contraseña: </label> <br>
+            <input type="password" id="passwordInput" placeholder="Introduce tu contraseña">
+        </div>
+        <br>
+        <div class="inputBlock">
+            <label for="messageInput">Comentario: </label> <br>
+            <textarea name="messageInput" id="messageInput" placeholder="Introduce un comentario"> </textarea>
+        </div>
+        <br>
+        <div class="inputBlock">
+            <label for="sex">Género: </label> <br>
+            <select name="sexInput" id="sexInput">
+                <option value="" hidden></option>
+                <option value="female">Femenino</option>
+                <option value="male">Masculino</option>
+                <option value="other">Otro</option>
+            </select>
+        </div>
+        <br> <br>
+
+        <label for="ageInput">Edad</label>
+        <input id="ageInput" name="ageInput" value="30" type="number" min="0" max="100">
+        <label for="birthdayInput">Fecha de nacimiento</label>
+        <input type="date" id="birthdayInput" name="birthdayInput" <br> <br> <br>
+        <br>
+
+        <div class="inputBlock">
+            <label for="carBrandInput">La marca de tu coche</label>
+            <input type="text" id="carBrandInput" name="carBrand" list="carBrandlist">
+            <datalist id="carBrandlist">
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="ford">Ford</option>
+                <option value="volkswagen">VolksWagen</option>
+            </datalist>
+        </div>
+
+
+
+   
+
+    <fieldset>
+        <legend>Estado Civil</legend>
+        <div>
+            <input type="radio" name="civilState" id="marriedInput" required>
+            <label for="marriedInput">Casado</label>
+        </div>
+        <div>
+            <input type="radio" name="civilState" id="singleInput" checked required>
+            <label for="singleInput">Soltero</label>
+        </div>
+        <div>
+            <input type="radio" name="civilState" id="divorcedInput" required>
+            <label for="singleInput">Divorciado</label>
+        </div>
+    </fieldset>
     <br>
-    <div class="inputBlock">
-        <label for="lastnameInput" >Apellidos: </label> <br>
-        <input type="text" id="lastnameInput" placeholder="Introduce tus Apellidos">
-    </div>
+    <label for="rangeInput">Seleccione cantidad de elementos</label>
+    <input type="range" name="rangeInput" id="rangeInput">
+    <br><br>
+
+
+    <label for="battLevel">Bateria</label>
+    <meter min="0" max="100" id="battLevel" value="60"></meter>
+
+    <br><br>
+
+    <label for="progressInput">Progreso</label>
+    <progress max="100" value="33" id="progressInput">60</progress>
     <br>
-    <div class="inputBlock">
-        <label for="emailInput" >Email: </label> <br>
-        <input type="email" id="emailInput" placeholder="Introduce tu email">
-    </div>
     <br>
-    <div class="inputBlock">
-        <label for="passwordInput" >Contraseña: </label> <br>
-        <input type="password" id="passwordInput" placeholder="Introduce tu contraseña">
-    </div>
-    <br>
-    <div class="inputBlock">
-        <label for="messageInput" >Comentario: </label> <br>
-        <textarea name="messageInput" id="messageInput" placeholder="Introduce un comentario"> </textarea>
-    </div>
-    <br>
-    <div class="inputBlock">
-        <label for="sex" >Género: </label> <br>
-        <select name="sexInput" id="sexInput">
-            <option value="" hidden></option>
-            <option value="female">Femenino</option>
-            <option value="male">Masculino</option>
-            <option value="other">Otro</option>
-        </select>
-    </div>
-    <br>
-    <input type="date">
-    <br> <br> <br> <br> <br> <br>
-    <input type="submit"  value="Guardar">
+ 
+    <input type="submit" value="Guardar">
+    <input type="reset" value="Limpiar Formulario">
 </form>
+<br>
+<label for="fileInput">Subir un archivo</label>
+<input type="file" id="fileInput" name="fileInput" value="test">
 
 
 
 
 
-    <br>
-    <hr><br>
 
+
+
+
+
+
+    <br> <br> <br> <br> <br> <br>
     <footer>
         Madrid,2022
     </footer>
-
-
 </body>
 
 </html>
