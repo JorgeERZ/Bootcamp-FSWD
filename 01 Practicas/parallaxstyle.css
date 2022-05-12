@@ -1,3 +1,23 @@
 #uno {
-    background-color: antiquewhite;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+}
+
+#dos {
+    height: 1000;
+    background-image: url(/01\ Practicas/oceano.png);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+#tres {
+    height: 1200px;
+    background-color: rgb(93, 93, 189);
+    background-attachment: fixed;
+}
+#magi {
+    background-image: url(/01\ Practicas/magikarp.png);
+    height: 600px;
+    background-position: center;
 }
