@@ -1,0 +1,24 @@
+* {
+    font: 1em/1.3 Arial, Helvetica, sans-serif;
+}
+p {
+    color: #555;
+}
+#primero p {
+    color: #336699;
+}
+#primero em { 
+    background: #FFFFCC; padding: .1em;
+}
+.especial {
+    background: #FFCC99; border: 1px solid
+#FF9900; padding: .1em;
+}
+.normal span {
+    font-weight: bold;
+}
+#primero {
+height: 50vh;
+background-image: url(/Images/coffe.jpeg);
+background-position: center center;
+}
