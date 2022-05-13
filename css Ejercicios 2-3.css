@@ -1,0 +1,48 @@
+#izquierda,
+#centro,
+#derecha {
+    border: 1px gray solid;
+    width: 300px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: rgb(189, 178, 178);
+    float: left;
+}
+
+#centro {
+    color: rgb(189, 178, 178);
+    border-left: none;
+    border-right: none;
+}
+
+#derecha {
+    text-align: right;
+    border-left: none;
+}
+
+#izquierda {
+    border-right: none;
+}
+
+ul {
+    padding: 0%;
+    border: 2px rgb(128, 128, 105) solid;
+    width: 15%;
+    background-color: rgb(244, 244, 236);
+    list-style-image: url(/Images/flecha.png);
+    list-style-position: inside;
+    margin: auto;
+}
+
+ul li {
+    padding: 10px 20px;
+    border-bottom: 2px rgb(128, 128, 105) solid;
+}
+
+ul li:last-child {
+    border-bottom: none
+}
+
+li {
+    cursor: pointer;
+}

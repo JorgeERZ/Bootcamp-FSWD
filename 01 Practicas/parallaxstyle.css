@@ -1,4 +1,4 @@
-#uno {
+ /* #uno {
     height: 300px;
     background-color: rgb(255, 255, 255);
     background-attachment: fixed;
@@ -20,4 +20,25 @@
     background-image: url(/01\ Practicas/magikarp.png);
     height: 600px;
     background-position: center;
+}
+Estilos de displays
+*/
+[class^="box"] {
+    background-color: steelblue;
+}
+.box-0 {
+    display: none;
+}
+.box-5,.box-6,.box-5 p,.box-6 p {
+    display: inline;
+}
+.box-3, .box-4, .box-3 p, .box-4 p {
+    display: inline-block;
+}
+/* centrar en eje x */
+#dos {
+background-color: teal;
+height: 50px;
+width: 25%;
+margin: auto;
 }
