@@ -1,0 +1,33 @@
+.contenedor {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border: 2px solid #333;
+}
+
+[class^="flex-child"] {
+    color: blue;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor>div:nth-child(odd) {
+    background-color: #ddd;
+}
+
+.contenedor>div:nth-child(even) {
+    background-color: #333;
+}
+
+.flex-child-2 {
+    flex-grow: 1;
+}
+
+.contenedor :last-child {
+    flex-shrink: 3;
+}
